@@ -9,7 +9,7 @@ def check_vowels_in_file(filename):
             return result
 
 # Example usage:
-filename = 'letters.txt'  # Replace with your file name
+filename = 'D:/project_files/Python_Session-Foss/File_Handling/letter.txt'  # Replace with your file name
 vowel_results = check_vowels_in_file(filename)
 for letter, is_vowel_result in vowel_results.items():
     print(f"Letter '{letter}' is a vowel: {is_vowel_result}")
