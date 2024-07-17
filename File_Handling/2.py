@@ -8,8 +8,8 @@ def check_vowels_in_file(filename):
             result = {letter: is_vowel(letter) for letter in content}
             return result
 
-# Example usage:
-filename = 'D:/project_files/Python_Session-Foss/File_Handling/letter.txt'  # Replace with your file name
+
+filename = 'D:/project_files/Python_Session-Foss/File_Handling/letter.txt'
 vowel_results = check_vowels_in_file(filename)
 for letter, is_vowel_result in vowel_results.items():
     print(f"Letter '{letter}' is a vowel: {is_vowel_result}")
