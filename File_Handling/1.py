@@ -1,11 +1,8 @@
 def read_file(filename):
-    try:
         with open(filename, 'r') as file:
             content = file.read()
             print("File content:")
             print(content)
-    except FileNotFoundError:
-        print(f"Error: File '{filename}' not found.")
 
 
 def write_to_file(filename, content):
